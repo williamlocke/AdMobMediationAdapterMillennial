@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'Classes/**/*.a'
   s.library    = 'AdapterMillennial'
   s.xcconfig   =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/AdMobMediationAdapterMillennial/Classes"' }
-  s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'EventKit', 'Foundation', 'MediaPlayer', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'UIKit'
+  s.frameworks = 'AdSupport'
   
 end
